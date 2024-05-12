@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hobbies</title>
+        <link rel="stylesheet" href="style1.css">
+        <script src="https://kit.fontawesome.com/cd06396f80.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div><img src="images/logo1.png" class="logo"></div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </header>
+<!--------------------------Slider--window-------->
+        <div class="slider">
+            <div class="list">
+                <div class="item active">
+                    <img src="images/Hobbies/sketching.jpg">
+                    <div class="content">
+                        <p>Sketches</p>
+                        <h2>01</h2>
+                        <p>The perfect fusion of passion and bliss, transforming ideas into vibrant visualizations.</p>
+                    </div>
+                </div>                
+                <div class="item">
+                    <img src="images/Hobbies/exhibition.JPG">
+                    <div class="content">
+                        <p>Exhibitions</p>
+                        <h2>02</h2>
+                        <p>A dive into my alter ego away from the regular self</p>
+                    </div>
+                </div>
+               <div class="item">
+                    <img src="images/Hobbies/city.png">
+                    <div class="content">
+                        <p>Photography</p>
+                        <h2>03</h2>
+                        <p>Capturing, Revealing and Encapsulating beauty and emotion through the lens of a rookie.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/Hobbies/tech.jpg">
+                    <div class="content">
+                        <p>Hackathons</p>
+                        <h2>04</h2>
+                        <p>Where ideas and efforts come together to solve problems</p>
+                    </div>
+                </div>
+            </div>
+<!-------------arrow--buttons-------------->                
+                <div class="arrows">
+                    <button id="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button id="next"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="thumbnail">
+                    <div class="item active">
+                        <img src="images/Hobbies/sketching.jpg">
+                        <div class="content">
+                            Sketching
+                        </div>
+                    </div>                
+                    <div class="item">
+                        <img src="images/Hobbies/exhibition.JPG">
+                        <div class="content">
+                            Exhibitions
+                        </div>
+                    </div>
+                   <div class="item">
+                        <img src="images/Hobbies/city.png">
+                        <div class="content">
+                            Photography
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/Hobbies/tech.jpg">
+                        <div class="content">
+                            Hackathons
+                        </div>
+                    </div>
+                </div>
+        </div>
+<!--------------------------------------Galleries----------------------------->     
+        <div class="events">
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skt')">Sketches</p>
+                <p class="tab-links" onclick="opentab('exb')">Exhibitions</p>
+                <p class="tab-links" onclick="opentab('pht')">Photography</p>
+                <p class="tab-links" onclick="opentab('hck')">Hackathons</p>
+            </div>
+            <div class="tab-contents activetab" id="skt"> 
+                <div class="gallery">
+                    
+                    <div class="pic">
+                        <img src="images/Hobbies/eve.jpg">
+                    </div>
+                    <div class="pic">
+                        <img src="images/Hobbies/retribution.jpg">
+                    </div>
+                    <div class="pic">
+                        <img src="images/Hobbies/work2.jpeg">
+                    </div>
+                    <div class="pic">
+                        <img src="images/Hobbies/work1.jpeg">
+                    </div>
+                
+                </div>
+            </div>
+            <div class="tab-contents" id="exb"> 
+                <div class="gallery">
+                    
+                    <div class="pic">
+                        <img src="images/Hobbies/IMG_2733.JPG">
+                    </div>
+                    <div class="pic">
+                        <img src="images/Hobbies/ex2.JPG">
+                    </div>
+                    <div class="pic">
+                        <img src="images/Hobbies/ex1.JPG">
+                    </div>
+                    <div class="pic">
+                        <img src="images/Hobbies/exhibition.JPG">
+                    </div>
+                    <div class="pic">
+                        <img src="images/Hobbies/ex5.JPG">
+                    </div>
+                    <div class="pic">
+                        <img src="images/Hobbies/IMG_6901.JPG">
+                    </div>
+                
+                </div>
+            </div>
+            <div class="tab-contents" id="pht"> 
+                <div class="gallery">
+                    
+                    <div class="pic">
+                        <img src="images/Hobbies/pic3.jpeg">
+                    </div>
+                    <div class="pic">
+                        <img src="images/Hobbies/pic2.jpeg">
+                    </div>
+                    <div class="pic">
+                        <img src="images/Hobbies/pic1.jpeg">
+                    </div>
+                    <div class="pic">
+                        <img src="images/Hobbies/pic4.jpeg">
+                    </div>
+                    <div class="pic">
+                        <img src="images/Hobbies/pic.jpeg">
+                    </div>
+                
+                </div>
+            </div>
+            <div class="tab-contents" id="hck"> 
+                <div class="gallery">
+                    
+                    <div class="pic">
+                        <img src="images/Hobbies/hack.JPG">
+                    </div>
+                    <div class="pic">
+                        <img src="images/Hobbies/hack2.JPG">
+                    </div>            
+                </div>
+            </div>
+            <a href="https://linktr.ee/neel.banerjee" class="btn">Discover More</a> 
+        </div>
+        <div class="copyright">
+            <p>made by neelbanerjee</p>
+        </div>
+        <script src="app.js"></script>
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks)
+                {
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents)
+                {
+                    tabcontent.classList.remove("activetab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("activetab");
+            }
+
+        </script>       
+    </body>
+</html>
